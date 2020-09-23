@@ -1,37 +1,187 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/lixurilaw/lixurilaw.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>学生进出校报备结果页</title>
+	
+	<script>  
+function getCurDate()  
+{  
+ var d = new Date();  
+ var week;  
+ switch (d.getDay()){  
+ case 1: week="星期一"; break;  
+ case 2: week="星期二"; break;  
+ case 3: week="星期三"; break;  
+ case 4: week="星期四"; break;  
+ case 5: week="星期五"; break;  
+ case 6: week="星期六"; break;  
+ default: week="星期天";  
+ }  
+ var years = d.getFullYear();  
+ var month = add_zero(d.getMonth()+1);  
+ var days = add_zero(d.getDate());  
+ var hours = add_zero(d.getHours());  
+ var minutes = add_zero(d.getMinutes());  
+ var seconds=add_zero(d.getSeconds());  
+ var ndate = years+"-"+month+"-"+days+"   "+hours+":"+minutes+":"+seconds+" ";  
+ divT.innerHTML= ndate;  
+}  
+  
+function add_zero(temp)  
+{  
+ if(temp<10) return "0"+temp;  
+ else return temp;  
+}  
+  
+setInterval("getCurDate()",100);  
+  
+</script>  
+	
+	
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+	
+	<style type="text/css">
+		.a{
+			width: 280px;
+			height: 280px;
+			background-color:#0D8A04 ;
+			
+				}
+	</style>
+	
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+	
+	<!-- Designed by 李旭日，2020.9.22
+造福人类，益寿延年
+-->
+	
+	
+	
+	
+	
+</head>
 
-```markdown
-Syntax highlighted code block
+	
+	<font face=黑体>
+	
+<body style="width:430px; overflow: hidden;">
+	
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lixurilaw/lixurilaw.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+	
+	
+	<font size="3em">
+<div>
+	
+	<p>
+	  姓名&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+<input type=text style="border:0;height:20px; width: 120px;font-size:0.960em;color:#666666;margin-bottom: 0">
+	</p>
+	
+		<hr style="border:none;border-top:1px solid #DEDEDE;" />
+		
+		<p>学号&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+			<input type=text style="border:0;height:20px; width: 120px;font-size:0.960em;color:#666666;margin-bottom: 0">
+			</p>
+		
+		<hr style="border:none;border-top:1px solid #DEDEDE;" />
+		
+		<p>学院&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+			<input type=text style="border:0;height:20px; width: 120px;font-size:0.960em;color:#666666;margin-bottom: 0">
+			</p>
+		
+		<hr style="border:none;border-top:1px solid #DEDEDE;" />
+		
+	<p>年级&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+			<input type=text style="border:0;height:20px; width: 120px;font-size:0.960em;color:#666666;margin-bottom: 0">
+			</p>
+	
+	<hr style="border:none;border-top:1px solid #DEDEDE;" />
+	
+	<p>班级&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+			<input type=text style="border:0;height:20px; width: 120px;font-size:0.960em;color:#666666;margin-bottom: 0">
+			</p>
+	<hr style="border:none;border-top:1px solid #DEDEDE;" />
+	<br>
+	<br>
+	
+	
+	</div>
+</font>
+		
+		<center>
+		
+		<div class=a>
+	
+			<p{line-height:5px;}>&nbsp;</p>
+			<p>&nbsp;
+				
+</p>
+			
+<fontface=黑体>
+			
+			<p{line-height:5px;}>
+				
+					<font size="7" >
+						<center>
+							<font color=ffffff>
+								进校<br>已报备
+							</font>
+						</center>
+					</font>
+				
+				</p>
+	
+	
+			
+			
+			</font>
+			
+			</div>
+		</center>
+		
+		
+		
+		<div>
+		
+		 <p>
+			 <font face=黑体>
+			 <font size="6" >
+				 <center> 
+					 <font color=000000>
+						 <strong>
+							 
+	<div id="divT"></div> 
+							 
+						 </strong>
+					 </font>
+	 			</center>
+			 </font>
+			 </font>
+			</p>
+			<p></p><br>
+			<br>
+			<br>
+			<center><p><font color=#DEDEDE;size=1>Designed by Lixuri  2020.9.23</p></center>
+		</div>
+		
+		
+		<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+		
+		
+		
+		</body>
+	
+	
+	
+	
+	
+</font>
+</html>
